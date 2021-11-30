@@ -10,13 +10,13 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
-        GITHUB_CREDENTIAL_ID = 'github-id'
-        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'docker_username'
-        GITHUB_ACCOUNT = 'kubesphere'
-        APP_NAME = 'devops-java-sample'
+        DOCKER_CREDENTIAL_ID = 'docker-registry'
+        GITHUB_CREDENTIAL_ID = 'github'
+        KUBECONFIG_CREDENTIAL_ID = 'kubernetes'
+        REGISTRY = 'registry.local.pascall.cn'
+        DOCKERHUB_NAMESPACE = 'demo'
+        GITHUB_ACCOUNT = 'zhangjiezhang'
+        APP_NAME = 'test'
     }
 
     stages {
