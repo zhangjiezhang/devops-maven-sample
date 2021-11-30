@@ -34,10 +34,16 @@
     </profile>
   </profiles>
   <mirrors>
-    <mirror>
+    <!--<mirror>
       <id>repo.jenkins-ci.org</id>
       <url>https://repo.jenkins-ci.org/public/</url>
       <mirrorOf>m.g.o-public</mirrorOf>
-    </mirror>
+    </mirror>-->
+    <mirror>
+      <id>nexus-aliyun</id>
+      <mirrorOf>central</mirrorOf>
+      <name>Nexus aliyun</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public</url> 
+   </mirror>
   </mirrors>
 </settings>
